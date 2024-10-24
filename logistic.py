@@ -137,6 +137,9 @@ if __name__=='__main__':
     inventory += {"product": "Laptop", "stock": 50}
     inventory += {"product": "Mouse", "stock": 20}
 
+    # Multiplicando o inventary por um fator de 2
+    inventory *=2
+
 
     # Exibindo o inventario
     print(f'Inventario: {inventory}')
